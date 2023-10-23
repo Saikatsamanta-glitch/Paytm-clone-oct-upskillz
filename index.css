@@ -39,8 +39,37 @@ nav{
         font-size: 30px;
 }
 .main{
-        box-shadow: 0px -10px 10px rgb(237, 237, 237);
-        height: 300px;
+        box-shadow: 0px -10px 10px rgb(251, 251, 251);
+        height: 600px;
         width: 100%;
         margin-top: 5px;
+        display: flex;
+        /* vertical to horizontal */
+        /* block to inline */
+}
+.main .left, .main .right{
+        width: 50%;
+        height: 100%;
+}
+.main .right{
+        padding-top: 30px;
+        
+}
+.main .left{
+        padding: 80px;
+        padding-right: 200px;
+}
+.main .left .brand{
+        height: 80px;
+}
+.main .right img{
+        float: right;
+        height: 90%;
+}
+.main .left h1{
+        font-size: 55px;
+        margin-top: 10px;
+}
+.left p{
+        font-size: 20px;
 }
